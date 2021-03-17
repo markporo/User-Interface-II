@@ -1,11 +1,121 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>markporo</title>
+    <link rel="stylesheet" href="style/index.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <!-- google font -->
+    <link href="https://fonts.googleapis.com/css2?family=Maven+Pro&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+    <header>
+      <div>
+        <h3>markporo</h3>
+        <section class="navigation">
+          <nav><a href="index.html"><p></p>Home</p></a></nav>
+          <nav><a href="about.html"><p>About</p></a></nav>
+          <nav><a href="contact.html"><p>Contact</p></a></nav>
+          <nav><a href="projects.html"><p>Projects</p></a></nav>
+        </section>
+      </div>
+
+<!-- hamburger NAV -->  
+        <img onclick="openNav()" id="linesHamburgerImage" src="assets/Hamburger_icon.svg.png" alt="Open NAV">
+        <section id="hamburger">
+          <a href="index.html"><p></p>Home</p></a>
+          <a href="about.html"><p>About</p></a>
+          <a href="contact.html"><p>Contact</p></a>
+          <a href="projects.html"><p>Projects</p></a>
+        </section>
+    </header>
+
+    <section id="mainTitePhoto">
+      <img id="mainPhoto" src="assets/ME- smaller img square.jpg" alt="mustache me">
+      <div id="infoRightOfMainPhoto">
+          
+            <h1>markporo</h1>
+            <p>I am a web developer student at Lambda with a passion for music, chocolate, and running. </p>
+            <a href="projects.html"><button>My Projects</button></a>
+          
+        </div>
+    </section>
+  
+
+<br>
+    <section id="projectImages">
+      <div>
+        <a href="https://poromusic.com/" target="_blank"
+          ><img src="assets/Poro site.jpg" alt="poromusic.com"
+        /></a>
+        <!-- <div class="text">Band Website</div> -->
+        <h6>Band Website</h6>
+      </div>
+      <div>
+        <a href="https://www.candyporostosky.com/" target="_blank"
+          ><img src="assets/Encounters.png" alt="candyporostosky.com"
+        /></a>
+        <h6>Book Website</h6>
+      </div>
+      <div>
+        <a href="https://markporostosky.netlify.app/" target="_blank"
+          ><img
+            src="assets/markporoHeadShot.jpg"
+            alt="My Previous portfolio site"
+        /></a>
+        <h6>My Other Portfolio Site</h6>
+      </div>
+      <div>
+        <a href="https://young-savannah-18383.herokuapp.com/" target="_blank"
+          ><img src="assets/Wedding Site.jpeg" alt="My wedding site"
+        /></a>
+        <h6>My Wedding Website</h6>
+      </div>
+      <div>
+        <a href="https://shrouded-mesa-93336.herokuapp.com/" target="_blank"
+          ><img src="assets/TODO.png" alt="My To Do List"
+        /></a>
+        <h6>My To DO List</h6>
+      </div>
+      <div>
+        <a href="https://morning-taiga-90296.herokuapp.com/" target="_blank"
+          ><img src="assets/JOKES.jpg" alt="My Worst Jokes"
+        /></a>
+        <h6>My Joke Book Site</h6>
+      </div>
+      <div>
+        <a href="#projectImages" target="_blank"
+          ><img class="picsum" src="https://picsum.photos/275" alt="random pic"
+        /></a>
+        <h6>PicSum1</h6>
+      </div>
+      <div>
+        <a href="#projectImages" target="_blank"
+          ><img class="picsum" src="https://picsum.photos/275" alt="random pic"
+        /></a>
+        <h6>Picsum2</h6>
+      </div>
+      
+      <div>
+        <a href="#projectImages" target="_blank"
+          ><img class="picsum" src="https://picsum.photos/275" alt="random pic"
+        /></a>
+        <h6>picsum3</h6>
+      </div>
+    </section>
+
+    <footer>
+      <section id="socials">
+      <p><a href="https://www.instagram.com/poromusic/">Instagram</a>
+      </p><p><a href="https://www.facebook.com/mark.porostosky/">FaceBook</a>
+      </p><p><a href="https://github.com/markporo">GitHub</a>
+      </p><p><a href="https://www.linkedin.com/in/markporo/">LinkedIn</a></p>
+    </section>
+    <a href="contact.html"><button>Contact Me</button></a>
+      <p>Copyright 2021 markporo  </p>
+    </footer>
+    <script src="javascript.js"></script>
+  </body>
 </html>
