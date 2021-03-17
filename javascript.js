@@ -11,7 +11,7 @@ function openNav() {
 }
 
 function closeOpenNav() {
-    if (window.outerWidth > "729") {
+    if (window.outerWidth > 729) {
         mobileNav.style.display = "none";
     }
 }
