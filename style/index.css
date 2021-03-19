@@ -152,6 +152,13 @@ header div {
   justify-content: space-between;
 }
 
+.subHeaderSection {
+  background-color: rgb(73, 69, 69);
+  padding: 40px 0px;
+  width: 100%;
+  border-bottom: 2px solid black;
+}
+
 #mainPhoto {
   width: 450px;
   display: block;
@@ -162,7 +169,7 @@ header div {
 #mainTitePhoto {
   width: 70%;
   margin: 0 auto;
-  margin-top: 40px;
+  margin-top: 0px;
   display: flex;
   flex-flow: row nowrap;
   justify-content: center;
@@ -213,18 +220,27 @@ nav {
   width: 100%;
   text-align: center;
   font-size: 40px;
-  height: 280px;
-  background-color: rgb(73, 69, 69);
+  height: 310px;
+  background-color: #11698e;
   color: white;
   line-height: 1.7;
+  border-bottom: 2px solid black;
+  border-top: 2px solid black;
+}
+
+.hr-line {
+  width: 100%;
+  height: 2px;
+  background-color: black;
+  margin: 5px 0px;
 }
 
 #linesHamburgerImage {
   display: none;
   position: absolute;
-  width: 70px;
-  top: 10px;
-  right: 10px;
+  width: 80px;
+  top: 15px;
+  right: 15px;
 }
 
 #hamburger a {
@@ -304,7 +320,7 @@ footer {
   margin: 0 auto;
   /* background-color: #19456b; */
   background-color: rgb(73, 69, 69);
-  height: 150px;
+  height: 175px;
   text-align: center;
 }
 
@@ -331,17 +347,17 @@ footer a {
 }
 
 footer button {
-  width: 15%;
-  max-width: 300px;
-  min-width: 120px;
-  height: 50px;
+  width: 18%;
+  max-width: 350px;
+  min-width: 200px;
+  height: 70px;
   margin-top: 20px;
   margin-bottom: 20px;
   border-radius: 10px;
 }
 
 footer p {
-  font-size: 0.7rem;
+  font-size: 0.9rem;
 }
 
 /* 16c79a */
@@ -388,7 +404,7 @@ footer p {
     text-align: center;
   }
   #mainPhoto {
-    width: 80%;
+    width: 95%;
     margin: 0 auto;
     margin-bottom: 15px;
   }
