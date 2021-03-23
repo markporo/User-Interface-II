@@ -179,6 +179,11 @@ header div {
   width: 175px;
   height: 60px;
   border-radius: 5px;
+  background-color: white;
+}
+
+#mainTitePhoto button:hover {
+  background-color: #16c79a;
 }
 
 #mainTitePhoto div {
@@ -354,6 +359,11 @@ footer button {
   margin-top: 20px;
   margin-bottom: 20px;
   border-radius: 10px;
+  background-color: white;
+}
+
+footer button:hover {
+  background-color: #16c79a;
 }
 
 footer p {
