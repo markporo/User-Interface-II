@@ -173,6 +173,16 @@ header div {
   display: flex;
   flex-flow: row nowrap;
   justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+
+#infoRightOfMainPhoto {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-content: center;
+  text-decoration: none;
 }
 
 #mainTitePhoto button {
