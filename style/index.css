@@ -437,8 +437,8 @@ footer {
   margin: 0 auto;
   text-align: center;
   background-color: var(--greyishColor);
-  height: 420px;
-  padding:20px 0px 60px 0px;
+  height: 640px;
+  padding:30px 0px 40px 0px;
   
 }
 
@@ -464,7 +464,7 @@ footer a {
   color: #f8f1f1;
 }
 
-footer button {
+/* footer button {
   width: 80%;
   max-width: 350px;
   min-width: 200px;
@@ -473,9 +473,62 @@ footer button {
   margin-bottom: 20px;
   border-radius: 5px;
   background-color: var(--offWhite-Color);
+} */
+
+#contactForm {
+  display: flex;
+  flex-flow: column nowrap;
+  flex-direction: center;
+  align-items: center;
+  align-content: center;
 }
 
+#contactForm p {
+  font-size: 1.1rem;
+  display: flex;
+  flex-flow: column nowrap;
+  width: 80%;
+} 
 
+#contactForm button, textarea, input {
+  /* text-align: center; */
+  
+  margin: 20px auto;
+  width: 100%;
+  max-width: 600px;
+  min-width: 200px;
+  height: 60px;
+  border-radius: 5px;
+  background-color: var(--offWhite-Color);
+}
+
+#contactForm label {
+  color: var(--offWhite-Color);
+  padding: 0;
+  margin: 0;
+  margin-bottom: -10px;
+  font-size: 1.5rem;
+}
+
+#contactForm button {
+  background-color: #4f779bd5;
+}
+
+#contactForm button:hover {
+  background-color: var(--offWhite-Color);
+  transition: all 0.3s ease-in-out;
+  transform: scale(.99);
+  filter: brightness(110%);
+}
+
+textarea {
+  height: 100px;
+}
+
+#contactForm input {
+  
+  height: 45px
+} 
 
 footer p {
   font-size: 0.9rem;
