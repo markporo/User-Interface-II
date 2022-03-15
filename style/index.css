@@ -190,10 +190,11 @@ header div {
 
 .subHeaderSection {
   background-color: var(--lightBlue);
-  padding: 100px 0px;
+  padding: 90px 0px;
   width: 100%;
   /* border-bottom: 2px solid black; */
   height: auto;
+  /* margin-bottom: -1px; */
   /* clip-path: polygon(0 0,100% 0,100% calc(100% - 25px),50% 100%,0 calc(100% - 25px)); */
 }
 
@@ -231,7 +232,9 @@ header div {
   width: 175px;
   height: 60px;
   border-radius: 5px;
+  font-size: 1.1rem;
   background-color: var(--offWhite-Color);
+  margin-top: 10px;
 }
 
 #mainTitePhoto button:hover {
@@ -240,18 +243,20 @@ header div {
 }
 
 #mainTitePhoto div {
-  margin-top: 150px;
-  margin: 150px 3% 0px 0px;
+  margin: 0px 3% 0px 0px;
 }
 
 #mainTitePhoto div p {
-  width: 80%;
+  width: 100%;
   line-height: 1.4;
-  margin: 3% 0px;
+  margin: 3% -10px 3% 0px;
+  font-size: 1rem;
+  color: var(--whiterColor)
 }
 
 #mainTitePhoto h1 {
-  font-size: 4rem;
+  font-size: 3rem;
+  color: var(--whiterColor)
 }
 
 header h3 {
@@ -273,8 +278,10 @@ header h3 {
 
 nav {
   width: 100px;
-  border: 2px solid black;
-  margin: 0 1px;
+  border: 1.7px solid black;
+  margin: 0 2.5px;
+  border-radius: 5px;
+
 }
 
 nav a {
@@ -360,6 +367,7 @@ button:hover {
   padding: 100px 0px;
   /* clip-path: polygon(0 0,50% 50px,100% 0,100% 100%,0 calc(100% - 50px)); */
   border-bottom: none;
+  margin-bottom: -50px;
   margin-top: -100px;
 }
 
@@ -417,12 +425,17 @@ button:hover {
 .curved svg {
   display: block;
   border: none;
+  /* border-bottom: -10px; */
+  width: 115%;
 }
 
 .curved .top {
   position: relative;
-  top: -30px;
-  z-index: -1;
+  /* top: -30px; */
+  /* z-index: -1; */
+  width: 120%;
+  border-top: none;
+  /* margin-top: -5px; */
 }
 
 /* /////////////foooter////////////// */
@@ -433,13 +446,14 @@ footer {
   justify-content: space-between;
   align-content: center;
   flex-flow: column nowrap;
-  border-top: 2px solid var(--greyishColor);
+  /* border-top: 2px solid var(--greyishColor); */
   margin: 0 auto;
   text-align: center;
   background-color: var(--greyishColor);
   height: 640px;
   padding:30px 0px 40px 0px;
-  
+  border: none;
+  margin-top: -20px;
 }
 
 footer a {
@@ -500,6 +514,7 @@ footer a {
   height: 60px;
   border-radius: 5px;
   background-color: var(--offWhite-Color);
+  font-size: 1.1rem;
 }
 
 #contactForm label {
@@ -512,6 +527,7 @@ footer a {
 
 #contactForm button {
   background-color: #4f779bd5;
+  border: 1px solid black;
 }
 
 #contactForm button:hover {
