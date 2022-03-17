@@ -239,6 +239,7 @@ header div {
   font-size: 1.1rem;
   background-color: var(--offWhite-Color);
   margin-top: 10px;
+  color: black;
 }
 
 #mainTitePhoto button:hover {
