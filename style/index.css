@@ -194,17 +194,16 @@ header div {
 
 .subHeaderSection {
   background-color: var(--lightBlue);
-  padding: 90px 0px;
+  padding: 70px 0px;
   width: 100%;
-  /* border-bottom: 2px solid black; */
   height: auto;
-  /* margin-bottom: -.5px; */
+  border: none;
   /* clip-path: polygon(0 0,100% 0,100% calc(100% - 25px),50% 100%,0 calc(100% - 25px)); */
 }
 
 
 #mainPhoto {
-  width: 450px;
+  width: 400px;
   display: block;
   border-radius: 5%;
   margin: 0px 7%;
@@ -368,11 +367,11 @@ button:hover {
   flex-flow: row wrap;
   justify-content: space-around;
   text-align: center;
-  padding: 100px 0px;
+  padding: 0px 0px;
   /* clip-path: polygon(0 0,50% 50px,100% 0,100% 100%,0 calc(100% - 50px)); */
   border-bottom: none;
-  margin-bottom: -70px;
-  margin-top: -120px;
+  margin-bottom: -55px;
+  margin-top: -100px;
 }
 
 #projectImages div {
@@ -595,6 +594,11 @@ footer p {
     /* padding: 20px 0; */
   }
 
+  #mainPhoto {
+    width: 100%;
+  }
+ 
+
   .picsum {
     margin: 0 auto;
     text-align: center;
@@ -603,6 +607,7 @@ footer p {
 }
 
 @media only screen and (max-width: 729px) {
+
   nav {
     display: none;
   }
@@ -630,7 +635,7 @@ footer p {
     text-align: center;
   }
   #mainPhoto {
-    width: 95%;
+    width: 70%;
     margin: 0 auto;
     margin-bottom: 15px;
   }
@@ -646,7 +651,7 @@ footer p {
 @media only screen and (min-width: 1100px) {
   #projectImages {
     max-width: 1100px;
-    margin: 15px auto 20px auto;
+    margin: -120px auto -70px auto;
   }
 
   #mainTitePhoto {
